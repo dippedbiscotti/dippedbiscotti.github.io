@@ -1,12 +1,12 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+name: 'Half Half and Half'
+description: 'A blog on whatever comes to mind'
+logo: '../assets/images/logo.png'
+favicon: '../assets/images/favicon.ico'
 baseurl: ''
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+disqus: 'blog'
+# email: ''
+# mailchimp-list: ''
 
 include: ["_pages"]
 permalink: /:title/
@@ -19,22 +19,29 @@ plugins:
   - jekyll-seo-tag
 
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    first:
+      name:           half
+      # site:           https://www.wowthemes.net
+      avatar:         ../assets/images/half-half-1.webp
+      bio:            "Hi! I'm half, an author on this blog."
+      # email:          wowthemesnet@gmail.com
+      # twitter:        https://twitter.com/wowthemesnet
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    second:
+      name:           "1/2"
+      # site:           https://www.wowthemes.net
+      avatar:         ../assets/images/half-half-2.png
+      bio:            "Hi! I'm 1/2, an author on this blog."
+      # email:          fakemail@gmail.com
+      # twitter:        https://twitter.com/wowthemesnet
 
+    third:
+      name:           "0.5"
+      # site:           https://www.wowthemes.net
+      avatar:         ../assets/images/half-half-3.webp
+      bio:            "Hi! I'm 0.5, an author on this blog."
+      # email:          fakemail@gmail.com
+      # twitter:        https://twitter.com/wowthemesnet
 # Defaults
 defaults:
 
@@ -44,7 +51,7 @@ defaults:
     values:
       layout: post
       author: sal
-      avatar: /assets/images/avatar1.jpg
+      avatar: ../assets/images/avatar1.jpg
 
   # all pages
   - scope:
